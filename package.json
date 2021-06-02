@@ -1,0 +1,71 @@
+{
+  "_args": [
+    [
+      "github:MaenAbdulhadi91/nodebb-theme-nhp-custom-theme",
+      "C:\\NodeBB_Repo\\NodeBB"
+    ]
+  ],
+  "_from": "github:MaenAbdulhadi91/nodebb-theme-nhp-custom-theme",
+  "_id": "nodebb-theme-nhp-custom-theme@github:MaenAbdulhadi91/nodebb-theme-nhp-custom-theme#8ffb2cf7286d52fe616c16eb697c3b1adf77b92a",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/nodebb-theme-nhp-custom-theme",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "github:MaenAbdulhadi91/nodebb-theme-nhp-custom-theme",
+    "rawSpec": "github:MaenAbdulhadi91/nodebb-theme-nhp-custom-theme",
+    "saveSpec": "github:MaenAbdulhadi91/nodebb-theme-nhp-custom-theme",
+    "fetchSpec": null,
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "github:MaenAbdulhadi91/nodebb-theme-nhp-custom-theme#8ffb2cf7286d52fe616c16eb697c3b1adf77b92a",
+  "_spec": "github:MaenAbdulhadi91/nodebb-theme-nhp-custom-theme",
+  "_where": "C:\\NodeBB_Repo\\NodeBB",
+  "author": {
+    "name": "Ma'en Abdulhadi",
+    "email": "M.Abdelhadi.ext@tahaluf.ae",
+    "url": "/"
+  },
+  "bugs": {
+    "url": "https://github.com/MaenAbdulhadi91/nodebb-theme-nhp-custom-theme/issues"
+  },
+  "dependencies": {
+    "bent": "^7.3.12"
+  },
+  "description": "Custom Theme Of NHP",
+  "devDependencies": {
+    "@commitlint/cli": "11.0.0",
+    "@commitlint/config-angular": "11.0.0",
+    "eslint": "7.18.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-plugin-import": "2.22.1",
+    "husky": "5.0.9",
+    "lint-staged": "10.5.4"
+  },
+  "homepage": "https://github.com/MaenAbdulhadi91/nodebb-theme-nhp-custom-theme#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "npx lint-staged",
+      "commit-msg": "npx commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "keywords": [],
+  "license": "MIT",
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "main": "theme.less",
+  "name": "nodebb-theme-nhp-custom-theme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaenAbdulhadi91/nodebb-theme-nhp-custom-theme.git"
+  },
+  "version": "1.2.0"
+}
